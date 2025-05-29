@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: aquamarine;
+}
+
+
+header {
+    background-color: #454f6f;
+    padding: 1px 60px;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;    
+    
+    
+}
+.hero {
+    background-color: #e6834c;
+    padding: 60px;
+    text-align: center;
+    font-size: large;
+}
+ .hero h1 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+ }
+
+ .hero p {
+    font-size: 1.3em;
+ }
+
+ .about {
+    background-color: black;
+    padding: 40px 20px;
+    text-align: center;
+ }
+
+.About {
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    text-decoration-color: black;
+    color: black;
+}
+
+.catering-contact {
+    color: black;
+}
+
+.footer-top  {
+    background-color: #454f6f;
+    padding: 10px;
+}
+.footer-bottom {
+    background-color: #e6834c;
+    padding: 1px;
+    text-align: center;
+}
