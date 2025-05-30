@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #fff;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 
@@ -27,7 +27,7 @@ header {
     font-size: 1.2em;
 }
 
-nav ul li a {
+nav ul li {
     color: white;
     display: inline-block;
     margin-left: 10px;
@@ -35,13 +35,22 @@ nav ul li a {
     list-style: none;
     border-radius: 5px;
     padding: 5px;
-    width: 90px;    
-    
-    
+    width: 90px;   
+    overflow: hidden; 
 }
+nav a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
 .hero {
     background-color: #e6834c;
-    padding: 60px;
+    padding: 80px;
     text-align: center;
     font-size: large;
 }
@@ -61,12 +70,16 @@ nav ul li a {
  }
 
 .About {
-    background-color: grey;
-    padding: 20px;
+    background-color: lightgray;
+    border-radius: 50px;
+    padding: 10px;
     margin: 10px;
     text-align: center;
     font-weight: bold;
     font-size: large;
+}
+.menu {
+    display: flex;
 }
 .menu-item {
     background-color: #fff;
@@ -74,15 +87,62 @@ nav ul li a {
     margin: 20px;
     text-decoration-color: black;
     color: black;
+    display: flex;
 }
-
-.catering-contact {
+.menu-item {
+    display: block;
+    width: 45%;
+}
+.Menu-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
     color: black;
+    display: block;
+    flex-wrap: wrap;
+    width: 45%;
+    
+}
+.catering-contact {
+    display: flex;
+}
+.catering{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    display: block;
+    width: 45%;
+}
+.contact {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    background-color: #fff;
+    width: 45%;
 }
 
 .footer-top  {
     background-color: #454f6f;
-    padding: 10px;
+    padding: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    
+}
+nav a {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-left: 60px;
+    text-align: center;
+    width: 90px;
+    
 }
 .footer-bottom {
     background-color: #e6834c;
